@@ -18,3 +18,11 @@ ifFalse(call sender doMessage(call message argAt(1)))\
 ifTrue(call sender doMessage(call message argAt(2))))
 
 unless(1 == 2, write("One is not two\n" ), write("one is two\n" ))
+
+#princessButtercup := Object clone
+westly := Object clone
+westly trueLove := true
+westly princessButtercup := method(unless(trueLove, ("It's False" println),("It's True" println)))
+
+westly princessButtercup
+
